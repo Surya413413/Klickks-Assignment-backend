@@ -1,0 +1,24 @@
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "name":"naresh",
+    "email":"suresh6695@gmail.com",
+    "password":"Surya@413",
+    "gender":"male"
+
+}
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email":"suresh6695@gmail.com",
+    "password":"Surya@413"
+}
+
+###
+
+GET http://localhost:3000/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNzU3MTcyNzQyLCJleHAiOjE3NTcxNzYzNDJ9.Mmp6uDaPVF2xrRq51LSSSzkaTwCH9RvgbgNLff7zogw
